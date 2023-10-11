@@ -11,7 +11,7 @@ namespace Factory_Method
         public void Log(string message)
         {
             //Console.WriteLine("Console log: " + message);
-            System.Diagnostics.Trace.WriteLine("Console log: " + message);
+            System.Diagnostics.Trace.WriteLine($"{DateTime.Now}: {message}");
         }
     }
 }

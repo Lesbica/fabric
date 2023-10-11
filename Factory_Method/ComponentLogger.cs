@@ -18,7 +18,7 @@ namespace Factory_Method
 
         public void Log(string message)
         {
-            listBox.Items.Add("Component log: " + message);
+            listBox.Items.Add($"{DateTime.Now}: {message}");
         }
     }
 }
